@@ -139,3 +139,34 @@ footer div a{
         box-shadow: 11px 10px 19px -10px rgba(101,101,101,0.66);
     }
 }
+
+/*Pagina Eventos*/
+.evento{
+    margin-top: 10px;
+    
+}
+.evento__contenido{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    
+
+}
+.evento__contenido h2{
+    padding: 5px;
+}
+
+
+.evento__contenido button{
+    align-self: center;
+    background-color: #6D85a3;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.evento__contenido button a{
+    text-decoration: none;
+    color: white;
+
+}
